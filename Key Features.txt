@@ -1,0 +1,44 @@
+"News-Site: A Dynamic PHP-Powered CMS for Managing News Content!"
+
+Project Overview
+This is a PHP-based CRUD (Create, Read, Update, Delete) project designed as a content management system (CMS) for a news website. It enables users to manage posts, categories, and users, with separate sections for both administrators and standard users.
+
+Key Features
+Dynamic Post Management: Add, edit, update, and delete news posts through an intuitive admin interface.
+
+Category Management: Organize posts by adding, updating, and deleting categories, making it easy to structure the content.
+
+User Management: Admins can add, update, and delete users, providing full control over who can contribute and manage content.
+
+Admin and User Separation: Distinct areas for admins and regular users with different header files for customized navigation.
+
+Responsive Design: Uses Bootstrap for a responsive and mobile-friendly layout.
+
+Search Functionality: Enables users to search through news content quickly and easily.
+
+Secure Login and Logout: Includes logout redirection to the homepage, maintaining session security.
+
+File Uploads for Posts: Allows uploading of images associated with news posts, enhancing visual engagement.
+
+Database-Backed Content: Uses MySQL to store data efficiently, with a provided SQL file for easy setup.
+
+Configurable Settings: Admin can update site settings, allowing for tailored control over site presentation and functionality.
+
+Files Included
+Core Files: index.php, config.php, search.php, single.php, etc.
+
+Admin Panel: Contains files such as add-category.php, add-post.php, users.php, and other CRUD-related files for administration.
+
+CSS & Fonts: Stylesheets and font files for a professional and visually appealing layout.
+
+Database: SQL file (news-site.sql) for easy database setup.
+
+This CMS is ideal for creating a structured news website with user-friendly administration and content management capabilities. 
+
+
+Author: Hamza,
+
+Contact Information:
+
+Facebook: facebook.com/fbhamza
+Email: hamzardokan@gmail.com​

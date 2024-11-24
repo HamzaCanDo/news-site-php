@@ -1,0 +1,50 @@
+Installation Guide for NewsSite PHP CMS
+Follow these steps to set up and use the NewsSite CMS on your local machine using XAMPP:
+
+Install XAMPP:
+
+Download and install XAMPP from https://www.apachefriends.org/download.html
+Once installed,
+Place the Project Folder:
+
+Extract the news-site folder from the provided files.
+Move the news-site folder to htdocs in your XAMPP installation directory (e.g., C:\xampp\htdocs\news-site).
+Start Apache and MySQL:
+
+Open the XAMPP App.
+Start both Apache and MySQL services by clicking on the "Start" buttons.
+Set Up the Database:
+
+Open a web browser and go to http://localhost/phpmyadmin/.
+In phpMyAdmin, create a new database:
+Name the database news-site.
+Import the database file:
+With the news-site database selected, click on the Import tab.
+Click on Choose File, select the SQL file (news-site.sql) located in the news-site/database folder, and click Go to import the database structure and data.
+Access the NewsSite:
+
+In your browser, go to http://localhost/news-site.
+The homepage of the NewsSite CMS should now be visible.
+Login Credentials:
+
+Admin Access (full permissions):
+Username: hamza
+Password: hamza
+Normal User Access (limited permissions):
+Username: normel
+Password: normel
+Admin Panel:
+
+If you log in using the admin credentials, you can access the admin panel at http://localhost/news-site/admin for additional control over posts, categories, users, and site settings.
+Creating New User Accounts:
+
+To create a new user account, navigate to http://localhost/news-site/admin/add-user.php.
+Site Settings:
+
+Customize the site logo, footer, and description by visiting the settings page at http://localhost/news-site/admin/settings.php.
+Enjoy using NewsSite CMS!
+
+Contact Information:
+
+Facebook: facebook.com/fbhamza
+Email: hamzardokan@gmail.com
